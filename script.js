@@ -76,6 +76,9 @@ class LazyImageLoader {
             img.classList.add('loaded');
             img.classList.remove('loading');
             
+            // Update aria-label for accessibility
+            img.setAttribute('aria-label', img.alt || 'Image loaded successfully');
+            
             // Hide placeholder with animation
             if (placeholder) {
                 placeholder.classList.add('hidden');
@@ -101,6 +104,7 @@ class LazyImageLoader {
             console.error(`Failed to load image: ${src}`);
             img.classList.remove('loading');
             img.classList.add('error');
+            img.setAttribute('aria-label', 'Failed to load image');
             
             // Update placeholder to show error state
             if (placeholder) {
@@ -110,6 +114,8 @@ class LazyImageLoader {
                 `;
                 placeholder.style.background = '#ffebee';
                 placeholder.style.color = '#c62828';
+                placeholder.setAttribute('aria-live', 'assertive');
+                placeholder.setAttribute('aria-label', 'Image failed to load');
             }
             
             this.loadingImages.delete(img);
