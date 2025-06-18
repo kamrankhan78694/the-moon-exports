@@ -85,8 +85,8 @@ class LazyImageLoader {
                 
                 // Remove placeholder from DOM after animation completes
                 setTimeout(() => {
-                    if (placeholder.parentElement) {
-                        placeholder.remove();
+                    if (placeholder.parentElement && placeholder.classList.contains('hidden')) {
+                        placeholder.style.display = 'none';
                     }
                 }, 300);
             }
@@ -108,10 +108,19 @@ class LazyImageLoader {
             
             // Update placeholder to show error state
             if (placeholder) {
-                placeholder.innerHTML = `
-                    <div class="error-icon">⚠️</div>
-                    <p>Failed to load image</p>
-                `;
+                const spinner = placeholder.querySelector('.loading-spinner');
+                const text = placeholder.querySelector('p');
+                
+                if (spinner) {
+                    spinner.innerHTML = '⚠️';
+                    spinner.classList.remove('loading-spinner');
+                    spinner.classList.add('error-icon');
+                }
+                
+                if (text) {
+                    text.textContent = 'Failed to load image';
+                }
+                
                 placeholder.style.background = '#ffebee';
                 placeholder.style.color = '#c62828';
                 placeholder.setAttribute('aria-live', 'assertive');
