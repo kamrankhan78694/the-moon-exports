@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /calendar/
+Disallow: /junk/
+Disallow: /*.pdf$
+
+
+Sitemap: https://www.themoonexports.com/sitemap.xml

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+  <loc>https://themoonexports.com</loc>
+  
+  <xhtml:link rel="alternate" hreflang="en" href="https://themoonexports.com"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://themoonexports.com/de"/>
+  
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/instago</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/about.html</loc>
+  
+  <priority>0.86</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/products.html</loc>
+
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/horn-crafts.html</loc>
+  
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/blog</loc>
+  <changefreq>always</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/wooden-crafts.html</loc>
+ 
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/resin.html</loc>
+ 
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/contact.html</loc>
+
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/horn-decor.html</loc>
+ 
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/faq.html</loc>
+ 
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/legal</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/legal/privacy.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/legal/imprint.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/legal/terms.html</loc>
+   <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://themoonexports.com/buffalo-horn-plates.html</loc>
+ 
+  <priority>0.86</priority>
+</url>
+
+
+</urlset>

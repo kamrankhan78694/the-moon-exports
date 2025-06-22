@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Kamran Khan
+N:Khan;Kamran;;;
+ORG:The Moon Exports
+BDAY:1900-12-05
+TITLE:Propritor
+PHOTO;TYPE=jpeg;VALUE=uri:https://sdthumbs-us-ab.ui-static.net/thumb/_/01.9
+ 0605708.102.jpg?h=NUX-2IEOqAZbyYZezTF-uw&e=1546646400&cmd=scale
+EMAIL;TYPE=WORK,PREF:kamran@angelic.com
+EMAIL;TYPE=HOME:mkak786@gmail.com
+EMAIL;TYPE=WORK:info@themoonexports.com
+TEL;TYPE=CELL,WORK,PREF:+918909070131
+item1.X-ABLabel:SKYPE
+item1.IMPP;TYPE=NON_STANDARD,PREF:skype:kamrankhan78694
+URL;TYPE=WORK:https://www.themoonexports.com
+URL;TYPE=WORK:https://twitter.com/themoonexports
+URL;TYPE=HOME:https://linkedin.com/in/itkamran
+ADR;TYPE=WORK,PREF:;;Kot West;Sambhal;Uttter Pradesh;244302;India
+END:VCARD
